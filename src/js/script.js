@@ -27,7 +27,7 @@ configurarCamera();
 
 botaoScanear.onclick = async ()=>{
     botaoScanear.disabled =true;// habilita o botão para pegar o texto
-    resultado.innerText ="Fazendo a Leitura ...aguarde";
+    resultado.innerText ="Fazendo a Leitura... aguarde";
 
     //prepara o canvas para receber a estrutura em 2d
     const contexto = canvas.getContext("2d");
